@@ -1,0 +1,33 @@
+<rss version="2.0">
+    <channel>
+        <title>send help, with love from keltime.nekoweb.org</title>
+        <description>kill time, read my rss</description>
+        <link>https://keltime.nekoweb.org</link>
+        
+        <item>
+            <title>Diary!! Updated Pages!!</title>
+            <description>
+                Check it out! 
+            </description>
+            <link>https://keltime.nekoweb.org/diary</link>
+            <guid>post-2</guid>
+            <pubDate>Sun 25 Jan 2026, 03:16:00 -0500</pubDate>
+        </item>
+
+        <item>
+            <title>what the rss??? koping with kopiko</title>
+            <description>ANYTHING but learning javascript, and hey this is pretty fun. Check out the newly updates pages on my site!
+            </description>
+            <link>https://keltime.nekoweb.org</link>
+            <guid>post-1</guid>
+            <pubDate>Thur 27 Nov 2025, 12:57:00 -0500</pubDate>
+        </item>
+ <!-- gonna figure out the style... soon... 
+            <style>
+                .post-box .post-title {
+                    color: red;
+                }
+            </style>
+             -->
+    </channel>
+</rss>

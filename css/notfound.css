@@ -1,0 +1,39 @@
+
+/* #heroVideo {
+	height: 100vh;
+        width: 100%;
+        object-fit: cover; /* use "cover" to avoid distortion 
+        border: none;
+		outline: none;
+		margin: 0;
+		padding: 0;
+		min-width: 100%;
+		min-height: 100%;
+} */
+
+body { 
+	margin: 0; 
+	background-image: url("images/hero_bg.gif");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+button {
+	all: unset;
+}
+
+.vidContainer {
+	position: relative;
+}
+
+.vidOverlayText {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+    
+}
+.notFoundtext {
+	font-family: "Anton-Regular", monospace;
+}
+

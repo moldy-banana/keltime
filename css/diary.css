@@ -1,0 +1,83 @@
+/* who in GOD'S NAME decided to use THREE different stylesheets? 
+not me, nope. for sure... lowkirkenuinely i don't even know anymore
+i am not a pro gamer </3 */ 
+@font-face {
+    font-family: "Jost";
+    src: url(/fonts/jost/Jost-VariableFont_wght.ttf);
+    font-style: normal;
+}
+* {box-sizing:border-box;}
+.diary {
+    display: flex;
+    flex-direction: row;
+}
+
+h3 {
+    font-family: 'Jost';
+}
+
+img {
+  max-width: 14em;
+}
+
+.cd {
+  margin-left: 18%;
+  transform: rotate(80deg);
+}
+
+/* Style the tab */
+.tab {
+  align-self: flex-start;
+  border: 1px solid #022954;
+  margin-top: 0.6em;
+  background-color: aliceblue;
+  width: 30%;
+  height: 20em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #f2c3c3 transparent;
+  
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: #022954;
+  padding: 0.8rem 0.8rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor:crosshair;
+  transition: 0.2s;
+  font-size: 1em;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #f2c3c3;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #354c7c;
+  color: #EAEBFE;
+  
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: inline-block;
+  align-self: flex-end;
+  padding: 0px 12px;
+  border: 1px solid #022954;
+  width: 90%;
+  margin-left: 0.6em;
+  height: 20em;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #f2c3c3 transparent;
+  
+}

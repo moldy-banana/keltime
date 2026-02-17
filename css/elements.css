@@ -1,0 +1,54 @@
+/* Must start with ".site-box". Change how your website will appear on main nekoweb site: https://lune.dimden.dev/405a44b7e5.png */
+/*!@nkb "domain":"jbc.lol","rss":"","overflow":false,"readonly":false */
+/*
+    Don't use this file to edit your site style! Create a different CSS file for that.
+    This file defines how custom elements (like sitebox) will look like.
+    Setting CSS that breaks main nekoweb site on purpose is prohibited and may result in ban and site deletion!
+*/
+
+/* Must start with ".site-box". Change how your website will appear on main nekoweb site: https://lune.dimden.dev/405a44b7e5.png */
+.site-box .sitefeature {
+ display: none;
+}
+
+.site-box {
+   background-image: url(//keltime.nekoweb.org/images/send-helpv3.gif);
+   background-size: cover;
+}
+
+.site-box > a > span {
+  color: #8695b8;
+  font-family: monospace;
+  font-size: 1.2em; 
+}
+
+.site-box p {
+  transition: 0.3s ease-in-out;
+  letter-spacing: 0.01em;
+  color: #022954;
+  font-family: 'Courier New';
+}
+
+.site-box p:hover {
+  letter-spacing: 0.04em; 
+  color: #f2c3c3;
+}
+
+/* Style for your post box (must start with ".post-box") */
+.post-box {
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 2px;
+    color: #354c7c;
+    font-weight: normal;
+    font-family: 'Courier New';
+}
+
+.post-box .post-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Lexend Regular';
+}
