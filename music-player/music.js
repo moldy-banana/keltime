@@ -1,0 +1,1 @@
+let cdImage = document.getElementById(cd)

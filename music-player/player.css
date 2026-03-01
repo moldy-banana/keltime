@@ -1,0 +1,163 @@
+.contain {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    max-width: 28rem;
+    padding: 1em;
+    align-items :center;
+}
+
+.cmt-body {
+    width: 24em;
+    height: 32em;
+    display: inherit; 
+    border: 1px solid black;
+    background: #C19A6B;
+    box-shadow: inset 0.01em 0em 1em rgba(67, 95, 99, 0.27);
+}
+
+.interface-top {
+    width: 22em;
+    z-index: 3;
+    min-width: 22em;
+    display: block;
+    height: 78%;
+    margin-left: 1em;
+    margin-right: 1em;
+    justify-self: center;
+    align-items: center;
+    border-top: none;
+    /*css.glass test*/
+    /* From https://css.glass */
+    background: rgba(178, 225, 229, 0.1);
+    box-shadow: inset 0 0 30px rgba(125, 177, 185, 0.512);
+    backdrop-filter: blur(0.6px);
+    -webkit-backdrop-filter: blur(0.6px);
+    border: 1px solid rgba(143, 179, 182, 0.577);
+    
+}
+
+.interface-med {
+    z-index:2; 
+    width: 22em;
+    min-width: 22em;
+    display: block;
+    height: 78%;
+    margin-left: -23em;
+    margin-right: 1em;
+    justify-self: center;
+    align-items: center;
+    background: #d2dbdb;
+    box-shadow: inset 0 0 30px rgba(137, 133, 133, 0.804);
+}
+
+.interface-inner {
+   z-index:3; 
+   position: relative;
+    width: 20em;
+    min-width: 20em;
+    display: block;
+    height: 20em;
+    margin-left: -22em;
+    margin-right: 1em;
+    margin-top: 0.6em;
+    justify-self: center;
+    align-items: center;
+    background: #b7c6ca;
+    box-shadow: inset 0 0 30px rgba(75, 92, 91, 0.519);
+}
+
+.circle {
+    z-index: 4;
+    width: 4em;
+    height: 4em;
+    justify-self: center;
+    position: relative;
+    margin-top:calc(20em - 50% - 2.2em);
+    border: 2px solid rgb(135, 161, 185);
+    background: rgb(214, 216, 221);
+    border-radius: 50%;
+    box-shadow:  0 0 30px rgba(20, 35, 34, 0.614);
+    color: blue;
+}
+/*
+.cd {
+    background-image: url(/music-player/p3romdvd.png);
+    z-index: 3;
+    width: 18em;
+    display: inline-block;
+    height: 18em;
+    border: 1px solid black;
+    justify-self: center;
+    align-items: center;
+    margin-left: 1em;
+    border-radius: 50%;
+    margin-top:calc(-3em - 9em);
+
+} */
+.dvd {
+    z-index: -1;
+    width: 20em;
+    display: inline-block;
+    height: 20em;
+    justify-self: center;
+    align-items: center;
+    margin-left: 0em;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -12em;
+ 
+}
+
+
+.vertical /*VERTICAL DISC LOADING MECHANISM*/ {
+    font-size: x-small;
+    color: rgb(16, 12, 12);
+    margin-top: -18em;
+    padding-left: 1em;
+    margin-left: -1em;
+    width: 13em;
+    background: rgba(178, 225, 229, 0.1);
+    box-shadow: inset 0 0 30px rgba(141, 197, 206, 0.512);
+    backdrop-filter: blur(14px);
+    border-radius: 0.2em;
+    -webkit-backdrop-filter: blur(0.6px);
+    border: 1px solid rgba(143, 179, 182, 0.577);
+}
+
+.display-text-container {
+    width: 19em;
+    height: 2em;
+    margin-top: 10.4em;
+    margin-left: 0.5em;
+    box-shadow: inset 0 0 60px rgb(0, 0, 0);
+    backdrop-filter: blur(0.2px);
+    -webkit-backdrop-filter: blur(0.6px);
+    border: 1px solid rgba(30, 35, 35, 0.908);
+    overflow-y: hidden;
+}
+
+#cd-text {
+    font-family: "Digital-7";
+    display: inline;
+    font-size: xx-large;
+    color: rgb(105, 158, 255);
+    margin-left: 2em;
+    text-shadow: 1px 2px 3px #2546ca, 2px 2px 29px #19bae3;
+
+}
+
+@font-face {
+    font-family: 'Digital-7';
+    src: url(/fonts/digital-7\ \(mono\).ttf);
+    font-style: normal;
+}
+
+.interface-bottom {
+ border: 1px solid rgba(176, 205, 211, 0.745);
+ margin-top: -7em;
+ width: 22em;
+ z-index: 5;
+ height: 7em;
+ background: rgba(197, 217, 219, 0.908);
+} 

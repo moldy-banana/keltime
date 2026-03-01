@@ -1,0 +1,138 @@
+/* test css*/
+/*scroll*/
+
+@font-face {
+    font-family: "Lexend-Regular";
+    src: url(/fonts/Lexend-VariableFont_wght.ttf) format(ttf);
+    font-style: normal;
+}
+
+
+/* dark hour 10-2AM*/
+
+
+/* regular page stuff */
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 32rem;
+    min-width: 3em;
+    margin-right: 0.6rem;
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+}
+
+.about { /* adds a border around stuff*/
+   border: #022954 solid 1px;
+   background-color: transparent;
+}
+
+/* spaces the text away from the 'about' border. */
+.text-spacing {
+    margin: 1em;
+}
+
+.center { /*puts the footer <p> into the center */
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    justify-content: center;
+    background: #354C7C;
+    background: linear-gradient(90deg,rgba(53, 76, 124, 0.64) 6%, rgba(255, 255, 255, 0) 30%); 
+
+    /*  border:  0.008em solid #022954; */
+}
+
+p {
+    font-family:'Courier New', monospace;
+}
+
+ul {
+    font-family:'Courier New';
+    font-size: 1em;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+	font-family: 'Courier New';
+    font-weight: 540;
+    border-left: 0.008em solid #8695B8 ;
+    transition: all 0.2s ease-in;
+}
+
+.no-border {
+    border: none;
+}
+
+a:hover {
+    color:#f2c3c3;
+    letter-spacing: 0.1em;
+}
+
+.button{
+    image-rendering: pixelated;
+}
+
+.album-art {
+   max-width: 6em; 
+}
+
+.aa-container {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content:space-evenly;
+    max-width: 100%;
+}
+
+
+/* About.html Section Tabs*/
+.tab {
+    overflow: hidden;
+    border-left: 0px;
+
+}
+.tab button {
+    background-color: transparent;
+    border: 1px solid black; 
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    
+}
+.tab button:hover {
+    background-color: #ddd;
+}
+.tab button.active {
+    background-color: #f2c3c3;
+}
+
+.tabcontent {
+    display: none;
+    border: 1px solid black;
+    margin-top: 0.6em;
+}
+
+.tab-content-padding {
+    padding-left: 0.8em;
+}
+
+li {
+    padding-bottom: 0.4em;
+}
+
+
+
+blockquote {
+    font-family: Courier, monospace;
+
+}
+/* single image styles*/
+
+#test-teddy {
+    width: 6em;
+    border: 1px solid black;
+    margin-top: 6px;
+}
