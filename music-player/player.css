@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Lexend Regular";
+    src: url(/fonts/Lexend-VariableFont_wght.ttf) format(ttf);
+    font-style: normal;
+}
+
 .contain {
     display: flex;
     flex-direction: column;
@@ -108,7 +114,19 @@
     margin-top: -12em;
  
 }
+.dvd:hover {
+    animation: dvd 3s linear infinite;
 
+}
+
+@keyframes dvd {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
 
 .vertical /*VERTICAL DISC LOADING MECHANISM*/ {
     font-size: x-small;
@@ -161,3 +179,57 @@
  height: 7em;
  background: rgba(197, 217, 219, 0.908);
 } 
+
+button {
+    font-size: x-large;
+    border-radius: 10em;
+    width: 1.4em;
+    height: 1.4em;
+    border: none;
+    line-height: 1em; 
+/* From https://css.glass */
+background: rgba(173, 194, 219, 0.64);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(173, 194, 219, 1);
+color: #022954; 
+}
+
+button:active {
+ /* From https://css.glass */
+background: rgba(97, 112, 157, 0.82);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.6px);
+-webkit-backdrop-filter: blur(8.6px);
+border: 1px solid rgba(97, 112, 157, 1);
+color: 	#eaebfe;
+
+}
+
+.topb > p {
+    font-family: Courier;
+    font-size: large;
+    font-weight: bold;
+}
+.topb {
+    display: flex;
+    flex-flow: row;
+    padding-left: 2em;
+    padding-right: 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midb {
+    display: flex;
+    flex-flow: row;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-top: 0.4em;
+    justify-content: space-between;
+    align-items: center;
+
+}

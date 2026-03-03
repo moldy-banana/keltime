@@ -141,10 +141,15 @@ span {
 	flex-wrap: wrap;
 	scrollbar-width: thin;
 	scrollbar-color: #f2c3c3 aliceblue;
+
 }
 
+.btn-contain > a:hover {
+	filter: none;
+}
 .btn-contain > a {
-	border: none; 
+	border: none;
+	/*sepia(0.9) hue-rotate(180deg) saturate(2.5) contrast(0.7) brightness(1.1) */
 }
 .noborder {
  display: initial; 
