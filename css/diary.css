@@ -1,12 +1,17 @@
 /* who in GOD'S NAME decided to use THREE different stylesheets? 
 not me, nope. for sure... lowkirkenuinely i don't even know anymore
 i am not a pro gamer </3 */ 
+
 @font-face {
     font-family: "Jost";
     src: url(/fonts/jost/Jost-VariableFont_wght.ttf);
     font-style: normal;
 }
-* {box-sizing:border-box;}
+
+body {
+  display: flex;
+}
+
 .diary {
     display: flex;
     flex-direction: row;
@@ -25,11 +30,12 @@ h3 {
 
 img {
   max-width: 14em;
-
 }
+
 ol {
   font-family: 'Courier New', Courier, monospace;
 }
+
 .cd {
   margin-left: 18%;
   transform: rotate(80deg);
@@ -41,13 +47,16 @@ ol {
   border: 1px solid #022954;
   margin-top: 0.6em;
   background-color: aliceblue;
-  width: 30%;
+  width: 35%;
   height: 20em;
   overflow-y: scroll;
   overflow-x: hidden;
   scrollbar-width: thin;
   scrollbar-color: #f2c3c3 transparent;
   
+}
+.tab:hover {
+  z-index: 6;
 }
 
 /* Style the buttons inside the tab */
@@ -83,7 +92,7 @@ ol {
   align-self: flex-end;
   padding: 0px 12px;
   border: 1px solid #022954;
-  width: 90%;
+  width: 98%;
   margin-left: 0.6em;
   height: 20em;
   overflow-y: scroll;
@@ -91,3 +100,42 @@ ol {
   scrollbar-color: #f2c3c3 transparent;
   
 }
+
+
+.no-interact {
+  pointer-events: none;
+  display: relative;
+}
+.hover-rotate {
+  transition: 0.4s ease-in-out;
+}
+.hover-rotate:hover {
+  transform: rotate(12deg);
+}
+
+/* graphics */
+#stamp {
+ width: 80px; 
+ z-index: 5;
+ position: absolute;
+ top: 210px;
+ margin-left: 14em;
+ rotate: 9deg;
+}
+
+#lamb {
+  position: absolute;
+  max-width: 12em;
+  z-index: 1;
+  top: 16rem;
+  margin-left: 11rem;
+  rotate: -10deg;
+}
+#miffybook {
+  position: absolute;
+  max-width: 8rem;
+  z-index: 1;
+  top: 33.6rem;
+  margin-left: -18rem;
+}
+

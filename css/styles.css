@@ -53,6 +53,17 @@ h2 {
 	font-size: 1.4rem;
 }
 
+h3 {
+    font-family: "Lexend Regular", monospace; 
+    margin-bottom: -0.4em;
+
+}
+
+h4 {
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .footer { 
 	font-family:'Courier New';
 	font-size:x-small;
@@ -103,30 +114,6 @@ span {
 	text-decoration-skip-ink: none;
 }
 
-/* ABOUT ME PAGE CHARACTER TAB*/
-.char-contain {
-	border: 1px black solid;
-	margin: 1em;
-	max-height: 9.3em;
-	overflow-y: scroll;
-	scrollbar-width: thin;
-	scrollbar-color: #f2c3c3 aliceblue;
-	overflow-x: hidden;
-    display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-.char {
-	display: flex;
-	flex-direction: row-reverse;
-	max-height: 100%;
-	margin-top: 0.6em;
-	margin-bottom: 0.6em;
-	width: 8em;
-	border: 1px #022954 solid;
-	
-}
-
 /* LINKS PAGE BUTTON CONTAINER*/
 .btn-contain {
 	border: 1px black solid;
@@ -140,7 +127,7 @@ span {
 	flex-direction: row;
 	flex-wrap: wrap;
 	scrollbar-width: thin;
-	scrollbar-color: #f2c3c3 aliceblue;
+	scrollbar-color: #f2c3c3 transparent;
 
 }
 
