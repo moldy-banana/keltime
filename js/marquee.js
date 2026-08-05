@@ -1,2 +1,2 @@
-document.write('<div class="nav-main-spacer"> <div class="marquee3k" data-speed="1" data-reverse="false" data-pausable="true"><p>/ so what? // but still. // attrition // it is never enough // and for my final move... // it smells like spring. /</p></div></div>');
+document.write('<div class="nav-main-spacer"> <div class="marquee3k" data-speed="1" data-reverse="false" data-pausable="true"><p>/ so what? // but still. // nothing better than a cold kombucha on a hot day // we will all be here forever // and for my final move... // to work out or to not work out // rawdogging html css since the big 25 // here before and after me // ctrl + shift + r to update the site/ </p></div></div>');
 document.write('<script src="/js/marquee3k.js"></script>');

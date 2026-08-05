@@ -6,9 +6,9 @@
 
 
 document.write('<a href="index.html" class="nav1">home</a>');
-document.write('<a href="test.html">test</a>');
-document.write('<a href="about.html">about</a>');
-document.write('<a href="links.html">link</a>');
+document.write('<a href="test.html" id="border-left-niche">changelog</a>');
+document.write('<a href="eiew.html" id="border-left-niche">about</a>');
+document.write('<a href="links.html" id="border-left-niche">link</a>');
 
 //tabs for the About page bc idk where to put it
 

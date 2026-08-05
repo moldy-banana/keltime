@@ -15,6 +15,7 @@ body {
 .diary {
     display: flex;
     flex-direction: row;
+    margin-top: -0.2em;
 }
 
 .diary-image {
@@ -35,6 +36,7 @@ img {
 ol {
   font-family: 'Courier New', Courier, monospace;
 }
+
 
 .cd {
   margin-left: 18%;
@@ -96,6 +98,7 @@ ol {
   margin-left: 0.6em;
   height: 20em;
   overflow-y: scroll;
+  overflow-x: hidden;
   scrollbar-width: thin;
   scrollbar-color: #f2c3c3 transparent;
   
@@ -118,24 +121,73 @@ ol {
  width: 80px; 
  z-index: 5;
  position: absolute;
- top: 210px;
- margin-left: 14em;
+ top: 290px;
+ margin-left: 14.2em;
  rotate: 9deg;
 }
 
 #lamb {
   position: absolute;
   max-width: 12em;
-  z-index: 1;
-  top: 16rem;
-  margin-left: 11rem;
+  z-index: 2;
+  top: 20.4rem;
+  margin-left: 11.4rem;
   rotate: -10deg;
 }
 #miffybook {
   position: absolute;
   max-width: 8rem;
   z-index: 1;
-  top: 33.6rem;
+  top: 36rem;
+  margin-left: -18rem;
+}
+#mono {
+  position: absolute;
+  max-width: 22em;
+  z-index: 1;
+  rotate: 96deg;
+  top: 32rem;
+  margin-left: 9rem;
+}
+
+#tobi {
+  width: 8em; 
+  z-index: 1;
+  position: absolute;
+  top: 15rem;
   margin-left: -18rem;
 }
 
+#mahiru {
+    width: 7.8em; 
+  z-index: 1;
+  position: absolute;
+  top: 12rem;
+  margin-left: 9rem;
+}
+
+/* status.cafe */
+#statuscafe {
+    padding: .5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: aliceblue;
+    border: 1px solid #022954;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    max-height: 70px;
+}
+#statuscafe-username {
+  color: #022954;
+  font-size: x-small;
+    margin-bottom: .5em;
+  padding-top: 0.5em;
+  margin-left: 32em;
+}
+
+#statuscafe-username > a {
+  display: none;
+}
+#statuscafe-content {
+    margin: 0.6em 1em 0em 1em;
+}

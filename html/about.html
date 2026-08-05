@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- walalalala hi
+     DEPRECATED 8/4/2026, the new ABT ME PAGE is eiew.html
+  -->
     <head>
         <title>about.</title>
         <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,10 +27,10 @@
             <h1 class="title">// MY CHUNGUS LIFE</h1>
            
             <div>
-                <p> Hi, my name is <span id="kel">kel.</span> This is my website that I plan to further personalize and add to.
+                <p> Hi, my name is <span id="kel">kel.</span> This is my website that I plan to forever personalize and add to.
                     The "test" tab will contain the expansion plans. 
-                 <span id="coding">"Coding"</span> a website is pretty fun, but I don't ever want to touch the 
-                 Nekoweb sitebox ever again. 
+                 <span id="coding">"Coding"</span> a website is pretty fun, but now it feels 
+                 like I'm stuck without anything to show.
                  I like sketching, eating food, learning new things, music, cool stuff, and good graphic design. 
                  Updates to this website will be quite far apart because of <span id='school'>school</span>, <span id="study">studying</span>, and <span id="sports">sports</span>. 
                 </p>
@@ -49,15 +52,15 @@
             </div>
          <!-- interests-->
             <h2 class="title">// MORE INFORMATION</h2>
-             <!-- tabs from w3schools-->
+             <!-- tabs from w3schools, change open tab-->
              <div class="tab">
-                 <button class="tablinks" onclick="openTab(event, 'Quiz')">Likes</button>
+                 <button class="tablinks" onclick="openTab(event, 'Quiz')" id="defaultOpen">Likes</button>
                  <button class="tablinks" onclick="openTab(event, 'Media')">Media</button>
-                 <button class="tablinks" onclick="openTab(event, 'Characters')"id="defaultOpen" >Characters</button>
+                 <button class="tablinks" onclick="openTab(event, 'Characters')" >Characters</button>
                  <button class="tablinks" onclick="openTab(event, 'Site-Info')">Site Info</button>
              </div>
             <!-- tab content-->
-             <div id="Quiz" class="tabcontent char-contain" style="margin-left: 0em; margin-right: 0em;">
+             <div id="Quiz" class="tabcontent char-contain-min" style="margin-left: 0em; margin-right: 0em;">
                 <p class="tab-content-padding"><em>Hopefully fun.</em></p>
                 <ul>
                     <li>Style: <em class="underline">grind fiction</em>!!</li>
@@ -65,27 +68,32 @@
                         Taiko no Tatsujin, Rhythm Heaven DS, Your Turn to Die, The World Ends With You.
                     </li>
                     <li>Pokemon: <em class="underline">rayquaza</em></li>
-                    <li>Collecting: pokemon cards, A5 art prints, books, cds + music, rocks/shells, enamel pins, tears of frustration</li>
-                    <li>Dessert: <em class="underline">tiramisu</em>, red bean nian gao, fruit tart, brownies... </li>
+                    <li>Collecting: pokemon cards, stickers, transparent pngs, cds + music, rocks/shells, enamel pins, tears of frustration</li>
+                    <li>Dessert: <em class="underline">tiramisu</em>, red bean nian gao, fruit tart, banana bread, brownies... </li>
                     <li>Bread: ciabatta</li>
-                    <li>Drink: iced green tea 0% sugar, cuban coffee, water, arizona half and half, diet coke, san pellegrino</li>
+                    <li>Drink: <em class="underline">KOMBUCHA</em>, iced green tea 0% sugar, coffee + chocomilk race day concoction, water, arizona half and half, diet coke, san pellegrino</li>
                     <li>Snack: sweet and salty kettle corn</li>
-                    <li>Sweets: dark chocolate (70% up), coffee candy, sakuma drops</li>
+                    <li>Sweets: dark chocolate (70% up), coffee candy, sakuma drops, ginger candies, gummies + peach rings</li>
                     <li>Color: <em class="underline">blue</em>, reddish sienna</li>
-                    <li>Animals: whale, cat, snake, moon jellyfish</li>
+                    <li>Animals: whale, cat, snake, and moon jellies</li>
                     <li>Youtube Channel: Product, Horses</li>
+                    <li>Narrator: Sir David Attenborough (happy 100th!)</li>
                 </ul>
                 
              </div> 
 
-             <div id="Media" class="tabcontent char-contain" style="margin-left: 0em; margin-right: 0em;">
-                 <p class="tab-content-padding">
+             <div id="Media" class="tabcontent" style="margin-left: 0em; margin-right: 0em;">
+                <div class="char-contain-min">
+                    <p class="tab-content-padding">
                     <ul>
                     <li>Interstellar (2014)</li>
+                    <li><em class="underline">To Be Hero X (2025?)</em></li>
                     <li>Nezha 2 (2025)</li>
+                    <li>The Emperor's New Groove (2000)</li>
                     <li>The Truman Show (1998)</li>
                     <li>Dynasties (Documentary, 2018)</li>
                     <li>Your Name. (2016)</li>
+                    <li>Home Alone</li>
                     <li>Pokemon Concierge (2023)</li>
                     <li>Mob Psycho 100</li>
                     <li>Moral Orel</li>
@@ -98,10 +106,16 @@
                     <li><em class="underline">Skip and Loafer</em> (Manga)</li>
                     </ul>
                 </p>
+            </div>
+
              </div> 
              <div id="Characters" class="tabcontent">
+                <!--buddy-->
+                    <img src="/images/buddy2.png" id="buddy2" class="no-interact">
+                
                 <p class="tab-content-padding">Favorite characters, probably:</p>
                 <div class="char-contain"> <!--fav characters-->
+                    <img src="/images/raquelle388.jpg" class="char" alt="raquelle from barbie life in the dreamhouse">
                     <img src="/images/poyo388.jpg" class="char" alt="kirby <333">
                     <img src="/images/nezha11388.jpg" class="char" alt="Nezha from Chinese movie Nezha 2 (2025)">
                     <img src="/images/kel388.jpg" class="char" alt="Kel from video game omori">
@@ -118,11 +132,10 @@
                     <img src="/images/junya388.jpg" class="char" alt="Junya Azuma from Takopi's Original Sin">
                     <img src="/images/azuma388.jpg" class="char" alt="Azuma from Takopi's Original Sin">
                     <img src="/images/affogatoc388.jpg" class="char" alt="affogato cookie from Cookie Run Kingdom">
-                    
-
-                    
+                    <img src="/images/mitsumi388.jpg" class="char"alt="mitsumi from skip and loafer">
                 </div>
-                <p class="tab-content-padding">Personality Quizzes But I Kind Of Dislike Them So Only The Ones I Bother To Do:</p>
+
+                <p class="tab-content-padding">Personality Quizzes But I Don't Kinda Dislike Them:</p>
                  <div class="char-contain">
                     <a href="http://rice.place/quiz.html"><img src="https://rice.place/quiz/brownrice.png" alt="quiet" title="you are brown rice"></a>
                     <a href="https://www.theotaku.com/quizzes/view/3240/what_genre_of_manga_are_you%3F"><img  src="http://www.theotaku.com/guru_results/3240_slice_of_life.jpg" alt="What Genre Of Manga Are You?"/></a>
@@ -131,6 +144,9 @@
                     <a href="http://cupped-expressions.net/cheese/quiz/" TARGET=NEW><img src="/images/blue03.gif" width="226" height="93" alt="I am blue cheese!"></a>
                     <a href="http://www.nerdtests.com/ft_nt2.php"><img src="http://www.nerdtests.com/images/badge/nt2/5d40a5d0a24a2b79.png" alt="NerdTests.com says I'm a Non-Nerd.  Click here to take the Nerd Test, get geeky images and jokes, and talk to others on the nerd forum!"></a>
                     <a href="https://tinydiorama.com/games/personality-test/" target="_blank"><img src="https://tinydiorama.com/games/personality-test/poetry-share.png" style="max-width: 16em;"></a>
+                    <a href="https://star-thorns.neocities.org/parlour/rosequiz" target="_blank"><img src="https://i.postimg.cc/Wb2yC29H/centifoliarose.jpg" alt="I am a Centifolia Rose!" title="I am a Centifolia Rose!" width="250px"></a>
+                    <a href="http://www.nerdtests.com/ft_loser.php?im"><img src="http://www.nerdtests.com/images/ft/lsr.php?val=5618" alt="I am 28% loser. What about you? Click here to find out!"></a>
+                    <a href="https://casiopea.neocities.org/isopod/isopodquiz.html"><img src="/images/quiz-isopod.png"></a>
                 </div>
              </div> 
              <!-- INSERT SITE INFORMATION-->

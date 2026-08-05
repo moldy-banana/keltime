@@ -112,8 +112,13 @@ a {
     justify-content: center;
 	font-family: 'Courier New';
     font-weight: 540;
-    border-left: 0.008em solid #8695B8 ;
     transition: all 0.2s ease-in;
+}
+
+#border-left-niche {
+    /*FOR THE NAV BAR THAT NEEDS IT*/
+     border-left: 0.008em solid #8695B8 ;
+
 }
 
 .no-border {
@@ -185,6 +190,18 @@ a:hover {
     flex-wrap: wrap;
 	justify-content: space-around;
 }
+
+.char-contain-min {
+    overflow-y: scroll;
+	scrollbar-width: thin;
+	scrollbar-color: #f2c3c3 transparent;
+	overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: space-around;
+    max-height: 9.3em;
+}
 .char {
     margin-top: 0.6em;
     display: inherit;
@@ -229,15 +246,31 @@ blockquote {
     margin-left: 10em;
 } 
 
+#buddy2 {
+     width: 8em;
+    position: absolute;
+    z-index: 6;
+    top: 64.2em;
+    margin-left: 24em;
+}
+
+
+
 
 .no-move {
     position: relative;
 }
 
 /* single image styles*/
+#rhythmring-img{
+    content: url("https://maddycha.com/rhythm-ring/imgs/widget/g2.png") !important;
+}
 
-#test-teddy {
-    width: 6em;
-    border: 1px solid black;
-    margin-top: 6px;
+#rhythmring *{
+    color: black;
+    fill: black;
+}
+
+#rhythmring{
+    width: 10em;
 }

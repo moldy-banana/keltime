@@ -1,5 +1,11 @@
 
-
+:root {
+	--dark: #022954;
+	--medium: #354c7c;
+	--grey: #505a74;
+	--lgrey:#b0b8ce;
+	--light: #eaebfe;
+}
 /* contains the marquee */
 .nav-main-spacer {
 	background-color: aliceblue;
@@ -91,7 +97,7 @@ a {
 }
 
 a:link {
-   color: #8196c8;
+   color: #5c719e;
 }
 
 a:hover {
@@ -130,6 +136,43 @@ span {
 	scrollbar-color: #f2c3c3 transparent;
 
 }
+/* for the BUTTONS links*/
+#buttons { 
+	display: flex;
+	max-height: 10em;
+	padding-top: 0.6em;
+	padding-left: 0.6em;
+	padding-bottom: 0.6em;
+	gap: 0.6em;
+	flex-flow: row wrap;
+
+
+}
+
+.btn-div {
+	display: flex;
+	flex-flow: column;
+	border: 1px black solid;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	width: 7.8em;
+	padding: 0.6em;
+	padding-bottom: 0.2em;
+	
+}
+
+.btn-div > p {
+	font-size: 0.8em;
+	display: block;
+	text-align: center;
+}
+
+.btn-div > a, .btn-div > a > img {
+	border: none;
+	height: 2em;
+	margin-bottom: -0.2em;
+}
 
 .btn-contain > a:hover {
 	filter: none;
@@ -138,6 +181,7 @@ span {
 	border: none;
 	/*sepia(0.9) hue-rotate(180deg) saturate(2.5) contrast(0.7) brightness(1.1) */
 }
+
 .noborder {
  display: initial; 
  border: none;
