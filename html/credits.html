@@ -40,6 +40,7 @@
                     <li>doodad.dev (dither me this... image ditherer)</li>
                     <li>Tumblr: @redtsundere-pngs, @plushiepngs</li>
                     <li>Tumblr: @digilatte - tombow monograph in diary</li>
+                    <li>yataragasu.nekoweb.org + (toptal.com)- topography background image</li>
                     <li>rice.place - discord status viewer (can't find link)</li>
                  </ul>
                 </div>
@@ -52,5 +53,19 @@
           <!-- footer -->
              <script type="text/javascript" src="/js/footer.js"></script>
         </div>
+         <script src="https://cdn.jsdelivr.net/npm/@hiseb/confetti@2.2.0/dist/confetti.min.js"></script>
+<script>
+    confetti();
+    window.addEventListener("load", () => {
+    let positionList = [
+        { x: window.innerWidth * 0.50, y: window.innerHeight * 0.60 },
+        { x: window.innerWidth * 0.25, y: window.innerHeight * 0.40 },
+        { x: window.innerWidth * 0.75, y: window.innerHeight * 0.30 },
+    ];
+    for(let i = 0; i < positionList.length; i++) {
+        setTimeout(() => confetti({ position: positionList[i] }), i * 250);
+    }
+});
+</script>
    </body>
 </html>

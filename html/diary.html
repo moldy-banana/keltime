@@ -56,11 +56,97 @@
             </div>
             -->
             <div class="tab">
-              <button class="tablinks" onclick="openTab(event, '16')" id="defaultOpen">with luck in hand</button>
+              <button class="tablinks" onclick="openTab(event, '17')" id="defaultOpen">pushing it down and praying</button>     
+              <button class="tablinks" onclick="openTab(event, '16')">with luck in hand</button>
               <button class="tablinks" onclick="openTab(event, '15')">maple leaf land mimicry</button>
               <button class="tablinks" onclick="openTab(event, '14')">morning dove</button>
               <button class="tablinks" onclick="openTab(event, '13')">ballpoint pen of a rabbit from saturn 2</button>
               <button class="tablinks" onclick="openTab(event, '12')">girl like me</button>
+            </div>
+
+            <div id="17" class="tabcontent">
+                <h3 class="underline">06/08/2026</h3>
+                <p>
+                  I really have been trying to improve my webdeving. I swear lol. 
+                  I find it really hard to make things. Making something coherent, like
+                  a layout, is hard. Using a background other than this topography pattern 
+                  is hard!! The thought of using a different one makes my mouth foam up. 
+                  Having other images as backgrounds looks okay on other websites, but as soon 
+                  as I smack down a 'background-image:', nothing else works in my brain 
+                  other than that godforsaken topography.
+                </p>
+                <p>
+                  Adding graphics and making them all work together is also really hard.
+                  I don't understand how people make it work. For example, check out 
+                  tenshinlight.nekoweb.org. Helios is amazing at that stuff. Magic.
+                  There are tons of graphics that are just sitting around because I 
+                  can't find a use for them. Help :(
+                </p>
+                <hr>
+                <p>
+                  Hi it's my birthday. I think I'll watch a movie at the theater.
+                  The theater is too expensive, though. I think I'll get ice cream 
+                  at some creamery. It's too far away, though. Maybe I should try
+                  being productive for once. 
+                </p>
+                <hr>
+                <p>There is a textbook on my table open to the fourth page of chapter one. It's for 
+                  a difficult class I'm taking this year. One that I must self study for in order to succeed. 
+                  I haven't touched it in weeks. I don't even try sitting at my desk and studying. Instead, 
+                  I open up the search bar on <em>Google</em> and type in 'youtube.com' for the hundred-thousandth 
+                  time ever. Time slips away. 
+                  <p>
+                    I'm curled up on my bed, watching some random youtube video. Time slips away. 
+                    It's my birthday again. The table is untouched, dusty. The cinnamoroll
+                    themed notebook I bought for taking notes is practically in mint condition. Time slips away. 
+                  </p>
+                  <p>
+                    I'm running out of time. For years, I have been running, running, running from everything difficult.
+                     I've known this for a long time, but I've never really done anything 
+                    about it. I feel like <em>The Thinker</em>, just sitting there. Frozen. Deep down, I want someone to save me.
+                    Save me from hardships, from problems. But it's pretty much common knowledge that only you can 
+                    save yourself- or something. "The only way out is through," Substack thinkpieces say, but I am too scared to walk. 
+                  </p>
+                  <p>
+                    It's my birthday today. It must count for something, right? "The journey of a thousand miles begins
+                    with a single step." But there's no use, no point, in never moving after taking a step. 
+                    People say "Even just one step is leagues ahead of other people." But what does it help?
+                    Am I even moving, becoming the person I want to be? I so desperately want it to be true. 
+                    Nothing has changed. 
+                  </p>
+                  <p>
+                    This half-baked lackluster 'performance' must signal a lack of care, if anything. 
+                    Even if the stakes are sky high. I know as if my future, my happiness, my financial stability
+                    depend on this. But I don't move. Never getting closer.  The truth is, I must have never really 
+                    cared that much about any of this, right? I refuse to believe that. I feel like I care. But do I really?
+                    Deep down, do I really want this for myself?  
+                  </p>
+                  <p>
+                    It's my birthday today. My (rented) french horn sits on my bed, finally seeing the light after 2 months of neglect
+                    in its scuffed up case. Today was the first day I played. It sounded like ass, of course. I feel like no matter what I do,
+                    I never sound good. It could be because my neglect of practicing, but I still think that I sound ass. If I don't practice,
+                    I don't care, right? I should probably just quit. Save that time for doing something else. Something inside me doesn't want to,
+                    though. I wonder why.
+                  </p>
+                  <hr>
+                  <p>
+                    Sometimes, I just wanna give up. Float in limbo forever. 
+                    That's not really viable, though. I should really start working 
+                    out right after noon. I've been procrastinating so much that I 
+                    haven't really worked out at all. I wish life was as simple as 
+                    a video game. With the objective screen and everything. But what's 
+                    the fun in that? Whatever I do, I want to make this a life worth living.
+                  </p>
+                  <hr>
+                  <p>Let's celebrate... have some tunes!</p>
+                  <ul>
+                    <p>Shoots - acloudyskye</p>
+                    <p>Someday - The Strokes</p>
+                    <p>ingydar - Adrianne Lenker</p>
+                    <p>Cross Your Mind - Shelly</p>
+                    <p>Spring Thief - Yorushika</p>
+                  </ul>
+                </p>
             </div>
 
             <div id="16" class="tabcontent">
@@ -519,6 +605,19 @@ document.getElementById("defaultOpen").click();
          </div>
 
         </div>
-
+ <script src="https://cdn.jsdelivr.net/npm/@hiseb/confetti@2.2.0/dist/confetti.min.js"></script>
+<script>
+    confetti();
+    window.addEventListener("load", () => {
+    let positionList = [
+        { x: window.innerWidth * 0.50, y: window.innerHeight * 0.60 },
+        { x: window.innerWidth * 0.25, y: window.innerHeight * 0.40 },
+        { x: window.innerWidth * 0.75, y: window.innerHeight * 0.30 },
+    ];
+    for(let i = 0; i < positionList.length; i++) {
+        setTimeout(() => confetti({ position: positionList[i] }), i * 250);
+    }
+});
+</script>
    </body>
 </html>

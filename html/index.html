@@ -15,10 +15,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> no further than home. </title>
     <link rel="stylesheet" href="/css/styles.css" />
+    <meta property="og:site_name" content>
+    <meta property="og:title" content> 
+    
+
 </head>
 
 <body class="index-body">
-    <h1 class="titlepad">no further than home.</h1>
+    <h1 class="titlepad"> no further than home.</h1>
     <h2 class="expand-element"><a href="eiew.html">about.</a></h2>
     <h2 class="expand-element"><a href="test.html">changelog.</a></h2>
     <h2 class="expand-element"><a href="links.html">links.</a></h2>
@@ -27,6 +31,23 @@
     <h2 class="expand-element"><a href="https://keltime.atabook.org/">guestbook.</a></h2>
 
     <p class="footer">est. 2025</p>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@hiseb/confetti@2.2.0/dist/confetti.min.js"></script>
+<script>
+    confetti();
+    window.addEventListener("load", () => {
+    let positionList = [
+        { x: window.innerWidth * 0.50, y: window.innerHeight * 0.60 },
+        { x: window.innerWidth * 0.25, y: window.innerHeight * 0.40 },
+        { x: window.innerWidth * 0.75, y: window.innerHeight * 0.30 },
+    ];
+    for(let i = 0; i < positionList.length; i++) {
+        setTimeout(() => confetti({ position: positionList[i] }), i * 250);
+    }
+});
+</script>
+
 </body>
 
 
