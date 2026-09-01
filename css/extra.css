@@ -1,3 +1,14 @@
+* {
+    --border: 1px solid var(--dark);
+    --dark: #6b1e1e;
+    --lite: #f7dadaa4;
+}
+
+::selection {
+    background-color: var(--dark);
+    color: var(--lite);
+}
+
 body {
     display: flex;
     background-repeat: repeat;
@@ -274,4 +285,132 @@ a:visited, .sleeve > a:visited {
     }
 }
 
-/* ALTARS PAGE */
+/* TRINKETS PAGE */
+/* body class is music */
+.trinket {
+    /* background-color: #f7d2d2; */
+    background-color: #f5d7d7;
+}
+.music-wrapper {
+ width: 40em;
+ height: 36em;
+ overflow-y: scroll;
+ scrollbar-width: none;
+     background-color:#e6c1bc;
+z-index: 1;
+ margin-top: 2.6em;
+ border: var(--border);
+ padding: 1em;
+}
+
+.t-left {
+     border: var(--border);
+
+}
+
+.stationery {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    max-height: 10em;
+    border-style: dashed;
+
+}
+
+.t-left > .t-left {
+    margin: 0.6em;
+}
+
+.buddy-scroll {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    max-height: 8em;
+}
+
+.trinket-footer {
+border: var(--border);
+background-color: #e6c1bc;
+border-style: dashed;
+box-sizing: border-box;
+ padding: 0.2em;
+ height: 2em;
+ margin-top: 0.6em;
+ width: 42em;
+ flex-direction: column;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.trinket-footer > p {
+    font-size: small;
+}
+
+legend {
+    font-weight:600;
+    color: var(--dark);
+}
+
+legend > a {
+    display: inline;
+    text-decoration: wavy underline var(--dark);
+
+}
+
+legend > a:visited {
+    color: var(--dark);
+}
+
+hr {
+    border: 0.4px dashed var(--dark);
+    margin: -0.2em 0 0.6em 0;
+}
+
+.t-left:hover, legend:hover {
+    text-transform:uppercase; 
+    font-style: italic;
+}
+
+
+fieldset > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: none;
+    font-style: normal;
+    text-align:left;
+
+}
+
+.trinket-img {
+    height: 8em;
+    margin-right: 0.8em;
+
+}
+
+.hirono {
+    height: 12em;
+}
+
+#monograph {
+    height: 8em;
+}
+
+
+.field-tent > p {
+    margin: 0.4em;
+    color: var(--dark);
+    
+}
+.absolute {
+    position: absolute;
+}
+
+#trinket-stamp {
+    width: 9.2em;
+    margin-bottom: 30em;
+    margin-left: 40em;
+    z-index: 2;
+}
+.music-wrapper:hover, .t-left:hover, fieldset:hover, legend:hover  {
+    z-index: 3;
+}

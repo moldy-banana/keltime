@@ -18,6 +18,14 @@ body {
     margin-top: -0.2em;
 }
 
+.footer { 
+	font-family:'Courier New';
+	font-size:x-small;
+	display: inherit;
+	margin-top: 0.8em;
+	justify-content: center;
+}
+
 .diary-image {
     margin-left: 3.8em;
     margin-top: 1em;
@@ -154,7 +162,7 @@ ol {
   width: 8em; 
   z-index: 1;
   position: absolute;
-  top: 15rem;
+  top: 16rem;
   margin-left: -18rem;
 }
 

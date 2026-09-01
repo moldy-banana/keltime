@@ -6,6 +6,12 @@
 	--lgrey:#b0b8ce;
 	--light: #eaebfe;
 }
+
+
+
+
+
+
 /* contains the marquee */
 .nav-main-spacer {
 	background-color: aliceblue;
@@ -41,17 +47,11 @@ nav {
 	background-color: white;
     position: relative;
 }
-/* CHANGE VIEWPORT DO LATER
-@media (max-width: 768px) {
- nav {
-	width: inherit;
-	grid-template-columns: repeat (4,1fr);
- }
-}
-*/
+
 h1 {
 	font-family: "Lexend Regular", monospace;
 	font-size: 1.8rem;
+	
 }
 
 h2 {
@@ -70,12 +70,16 @@ h4 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.footer { 
+.footer-i, .footer { 
 	font-family:'Courier New';
 	font-size:x-small;
-	margin-top: 6px;
 	display: inherit;
+	margin-top: -0.6em;
 	justify-content: center;
+}
+
+.footer {
+ margin-top: 0.8em;
 }
 
 body {
@@ -84,6 +88,11 @@ body {
 	justify-content: center; 
 	align-items: center;
 	background-image: url("/images/bg-index.png");
+}
+
+.dark {
+	background-blend-mode: multiply;
+	background-color: var(--light);
 }
 
 ::selection {
@@ -98,6 +107,8 @@ a {
 
 a:link {
    color: #5c719e;
+   	transition: all 0.2s ease-in;
+
 }
 
 a:hover {
@@ -107,6 +118,13 @@ a:hover {
 
 a:visited {
     color: #8695b8;
+	transition: all 0.2s ease-in;
+
+}
+
+a:visited:hover {
+	   color: #f2c3c3;
+
 }
 /* span is for tippy tooltips, and will be highlighted */
 
@@ -204,13 +222,55 @@ span {
   font-weight: 500;
 }
 /* index style */
+
+.index-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4em;
+}
+.index-title > h2 {
+	font-size: 1.2rem;
+}
+
 .titlepad {
-	color: #022954;
+	color: var(--dark);
+	margin: 0;
 }
 
 .index-body {
 	align-items:center;
 	
+}
+
+.index-center {
+	margin-top: -0.8em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	height: 30em;
+}
+
+.index-image {
+	background-color: transparent;
+	width: 20em;
+}
+
+.index-links {
+	height: 20.8em;
+	margin-left: 1.8em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+.sect-cont-pad {
+	border: 1px solid black;
+	height: 415.33px;
 }
 
 .expand-element {

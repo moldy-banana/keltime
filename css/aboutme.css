@@ -236,7 +236,7 @@ p {
 }
 
 #trackName {
-    margin-top: 1.6em;
+    margin-top: 20%;
     margin-bottom: -0.6em;
 }
 
@@ -351,12 +351,12 @@ dd {
 }
 
 #stamp-r:hover {
-    transform: translateX(-40%)
+    transform: translateX(-40%);
 
 }
 
 #stamp-r:hover + #charm-blueclock {
-        transform: translateX(-38%)
+        transform: translateX(-38%);
 
 }
 
