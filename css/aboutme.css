@@ -156,7 +156,8 @@ p {
     background-color: var(--b2);
     border-radius:  var(--border);
     width: 38.7em;
-    padding: 0.2em 1em 1em 1em;
+    max-height: 40em;
+    padding: 0.2em 1em 0 1em;
     padding-top: 0.2em;
  box-shadow: var(--boxshadow);
 
@@ -171,7 +172,7 @@ p {
 
 .now {
     border: 1px dotted black;
-    height: 5.5em;
+    height: 5.38em;
     min-width: 17em;
     padding: 0.4em;
     overflow-y: scroll;
@@ -180,10 +181,17 @@ p {
   scrollbar-color: navy rgba(151, 151, 151, 0);
 }
 
+.m-r-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 0.88em;
+}
+
 .stamps {
     margin-top: 1em;
     max-width: 14em;
-    height: 11em;
+    min-width: 14em;
+    height: 12em;
     gap: 0.4em;
     border: 1px dotted black;
     padding: 0.4em;
@@ -193,6 +201,27 @@ p {
 
 
 }
+.musica {
+    height: 12em;
+    min-width: 21.8em;
+    padding-left: 0.8em;
+}
+
+.musica:hover {
+    background-color: #ede2e5;
+    z-index: 5;
+}
+
+.musica > ul  {
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  .musica > ul > li::before {
+    content: '-';
+    margin-right: 1em;
+  }
 
 .container-cool {
     position: relative;

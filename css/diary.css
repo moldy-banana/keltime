@@ -59,6 +59,7 @@ ol {
   background-color: aliceblue;
   width: 35%;
   height: 20em;
+  max-height: 20em;
   overflow-y: scroll;
   overflow-x: hidden;
   scrollbar-width: thin;
@@ -115,7 +116,7 @@ ol {
 
 .no-interact {
   pointer-events: none;
-  display: relative;
+  display: absolute;
 }
 .hover-rotate {
   transition: 0.4s ease-in-out;
@@ -146,7 +147,7 @@ ol {
   position: absolute;
   max-width: 8rem;
   z-index: 1;
-  top: 36rem;
+  top: 37.8em;
   margin-left: -18rem;
 }
 #mono {
@@ -162,7 +163,7 @@ ol {
   width: 8em; 
   z-index: 1;
   position: absolute;
-  top: 16rem;
+  top: 17.2rem;
   margin-left: -18rem;
 }
 
@@ -170,7 +171,7 @@ ol {
     width: 7.8em; 
   z-index: 1;
   position: absolute;
-  top: 12rem;
+  top: 12.8rem;
   margin-left: 9rem;
 }
 
