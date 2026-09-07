@@ -1,6 +1,14 @@
 /* who in GOD'S NAME decided to use THREE different stylesheets? 
 not me, nope. for sure... lowkirkenuinely i don't even know anymore
 i am not a pro gamer </3 */ 
+:root {
+  --l: #F1F3E0;
+  --lm: #D2DCB6;
+  --m:#A1BC98;
+  --d:#778873 ;
+  --border: 1px solid var(--d);
+  --scrollbar-c: var(--m) transparent;
+}
 
 @font-face {
     font-family: "Jost";
@@ -11,6 +19,7 @@ i am not a pro gamer </3 */
 body {
   display: flex;
 }
+
 
 .diary {
     display: flex;
@@ -57,7 +66,7 @@ ol {
   border: 1px solid #022954;
   margin-top: 0.6em;
   background-color: aliceblue;
-  width: 35%;
+  width: 11.8em;
   height: 20em;
   max-height: 20em;
   overflow-y: scroll;
@@ -66,6 +75,7 @@ ol {
   scrollbar-color: #f2c3c3 transparent;
   
 }
+
 .tab:hover {
   z-index: 6;
 }
@@ -75,7 +85,7 @@ ol {
   display: block;
   background-color: inherit;
   color: #022954;
-  padding: 0.8rem 0.8rem;
+  padding: 0.8em 0.2em 0.8em 0.6em;
   width: 100%;
   border: none;
   outline: none;
@@ -199,4 +209,84 @@ ol {
 }
 #statuscafe-content {
     margin: 0.6em 1em 0em 1em;
+}
+
+/* BLOG COLOR CHANGe THINGIES */
+
+body.blog {
+  background-blend-mode: multiply;
+  background-color: #a2b2a22d;
+  background-image: url(/images/bg-index.png);
+  ::selection{
+    background-color: var(--d);
+    color: var(--l);
+  }
+  
+  .title {
+background: #778873;
+background: linear-gradient(90deg,rgba(119, 136, 115, 0.84) 1%, rgba(241, 243, 224, 0) 34%);  }
+  a:hover {
+    color: var(--m);
+  }
+  a {
+    columns: var(--d);
+  }
+
+  .nav-main-spacer {
+    background-color: #a2b2a21c;
+  }
+
+  .nav1 {
+    border-color: var(--d);
+    background-color: #a2b2a21c;
+  }
+  #border-left-niche {
+    border-color: var(--d);
+    background-color: #a2b2a21c;
+  }
+
+  .tab {
+  border: var(--border);
+  background-color: #d5dad5a1;
+  scrollbar-color:  var(--scrollbar-c);
+  color: var(--d);
+  min-height: 24em;
+  max-height: 24em;
+ }
+
+
+ /* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: var(--lm);
+}
+.tab button {
+  padding-right: 2em;
+  display: flex; 
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: var(--d);
+  color: var(--l);
+  
+}
+
+/* Style the tab content */
+.tabcontent {
+  border: var(--border);
+  scrollbar-color:  var(--scrollbar-c);
+  height: 24em;
+  
+}
+
+.underline {
+  text-decoration: var(--d) wavy underline 2px;
+}
+
+.blog-a {
+  display: inline;
+  text-decoration: underline wavy 1px var(--d) ;
+  text-decoration-skip-ink: none;
+}
+
 }
