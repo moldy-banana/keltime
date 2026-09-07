@@ -1,13 +1,12 @@
-# keltime - a personal website by moldy.banana
-A project that started in early 2025, to forever.
+# keltime
+A personal website by Ellie, hosted on nekoweb.org.
 [Visit keltime](https://keltime.nekoweb.org)
 
 <img width="500" height="275" alt="image" src="https://github.com/user-attachments/assets/4f35d0a0-cf92-4212-ad4e-a53d10950f57" />
 
 ## Overview
-This website was created to further my understanding of HTML, CSS, and JS, but evolved into something 
-that I truly enjoy working on. keltime is a website built for the indie web- it's not a portfolio, 
-but an insight into how I see the world through my eyes.
+Keltime.nekoweb.org is a personal website built by Ellie made for the indie web. This project was 
+written in pure HTML, CSS, and JS. 
 
 <img width="500" height="275" alt="image" src="https://github.com/user-attachments/assets/06f0be6a-5fbc-4d5d-b7e1-b6393b965ae6" />
 
@@ -20,3 +19,8 @@ but an insight into how I see the world through my eyes.
 - Blog: the real blog
 - Diary: other little things
 
+## Credits
+- [w3css tabinators](https://www.w3schools.com/w3css/w3css_tabulators.asp) - tweaked code used for the diary and blog
+- [tippyjs](https://github.com/atomiks/tippyjs) - a tooltip library
+- [Marquee3000](https://github.com/ezekielaquino/Marquee3000) - a marquee library
+- [lastfm-last-played](https://github.com/biancarosa/lastfm-last-played) - a last.fm widget to show the last played song of a user on a website
